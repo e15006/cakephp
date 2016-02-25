@@ -1,0 +1,5 @@
+drop table if exists tbj0;
+create table tbj0 (guru int auto_increment primary key,sure varchar(30),niti datetime,aipi varchar(20));
+
+drop table if exists tbj1;
+create table tbj1 (bang int auto_increment primary key,nama varchar(30),mess text,niti datetime,guru int,aipi varchar(20));

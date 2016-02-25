@@ -1,0 +1,337 @@
+-- MySQL dump 10.13  Distrib 5.5.44, for debian-linux-gnu (x86_64)
+--
+-- Host: localhost    Database: db1
+-- ------------------------------------------------------
+-- Server version	5.5.44-0+deb8u1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `hizu_ziko`
+--
+
+DROP TABLE IF EXISTS `hizu_ziko`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `hizu_ziko` (
+  `hizu` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `hizu_ziko`
+--
+
+LOCK TABLES `hizu_ziko` WRITE;
+/*!40000 ALTER TABLE `hizu_ziko` DISABLE KEYS */;
+INSERT INTO `hizu_ziko` VALUES ('2013-11-17 20:35:15'),('2015-11-05 19:22:00');
+/*!40000 ALTER TABLE `hizu_ziko` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `hizuke`
+--
+
+DROP TABLE IF EXISTS `hizuke`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `hizuke` (
+  `a` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `hizuke`
+--
+
+LOCK TABLES `hizuke` WRITE;
+/*!40000 ALTER TABLE `hizuke` DISABLE KEYS */;
+INSERT INTO `hizuke` VALUES ('2015-11-05'),('0000-00-00'),('2015-11-05'),('2015-11-05');
+/*!40000 ALTER TABLE `hizuke` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `itii`
+--
+
+DROP TABLE IF EXISTS `itii`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `itii` (
+  `a` int(11) NOT NULL,
+  `b` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`a`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `itii`
+--
+
+LOCK TABLES `itii` WRITE;
+/*!40000 ALTER TABLE `itii` DISABLE KEYS */;
+INSERT INTO `itii` VALUES (1,'あ'),(2,NULL);
+/*!40000 ALTER TABLE `itii` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `renzoku`
+--
+
+DROP TABLE IF EXISTS `renzoku`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `renzoku` (
+  `a` int(11) NOT NULL AUTO_INCREMENT,
+  `b` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`a`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `renzoku`
+--
+
+LOCK TABLES `renzoku` WRITE;
+/*!40000 ALTER TABLE `renzoku` DISABLE KEYS */;
+INSERT INTO `renzoku` VALUES (1,'子'),(2,'丑'),(3,'寅'),(4,'卯'),(5,'辰');
+/*!40000 ALTER TABLE `renzoku` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1`
+--
+
+DROP TABLE IF EXISTS `tb1`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1` (
+  `bang` varchar(10) NOT NULL,
+  `nama` varchar(10) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL,
+  PRIMARY KEY (`bang`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1`
+--
+
+LOCK TABLES `tb1` WRITE;
+/*!40000 ALTER TABLE `tb1` DISABLE KEYS */;
+INSERT INTO `tb1` VALUES ('A101','佐藤',40),('A102','高橋',28),('A103','中川',20),('A104','渡辺',23),('A105','西沢',35);
+/*!40000 ALTER TABLE `tb1` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1A`
+--
+
+DROP TABLE IF EXISTS `tb1A`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1A` (
+  `bang` varchar(10) DEFAULT NULL,
+  `nama` varchar(10) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1A`
+--
+
+LOCK TABLES `tb1A` WRITE;
+/*!40000 ALTER TABLE `tb1A` DISABLE KEYS */;
+INSERT INTO `tb1A` VALUES ('A101','佐藤',40),('A102','高橋',28),('A103','中川',20),('A104','渡辺',23),('A105','西沢',35);
+/*!40000 ALTER TABLE `tb1A` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1B`
+--
+
+DROP TABLE IF EXISTS `tb1B`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1B` (
+  `bang` varchar(10) DEFAULT NULL,
+  `nama` varchar(10) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1B`
+--
+
+LOCK TABLES `tb1B` WRITE;
+/*!40000 ALTER TABLE `tb1B` DISABLE KEYS */;
+INSERT INTO `tb1B` VALUES ('A101','佐藤',40),('A102','高橋',28),('A103','中川',20),('A104','渡辺',23),('A105','西沢',35);
+/*!40000 ALTER TABLE `tb1B` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1C`
+--
+
+DROP TABLE IF EXISTS `tb1C`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1C` (
+  `bang` varchar(10) DEFAULT NULL,
+  `nama` varchar(100) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1C`
+--
+
+LOCK TABLES `tb1C` WRITE;
+/*!40000 ALTER TABLE `tb1C` DISABLE KEYS */;
+INSERT INTO `tb1C` VALUES ('A101','佐藤',40),('A102','高橋',28),('A103','中川',20),('A104','渡辺',23),('A105','西沢',35),('N111','松田',33),('1234567890',NULL,NULL),('1234567890',NULL,NULL),('1234567890',NULL,NULL);
+/*!40000 ALTER TABLE `tb1C` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1D`
+--
+
+DROP TABLE IF EXISTS `tb1D`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1D` (
+  `umare` datetime DEFAULT NULL,
+  `bang` varchar(10) DEFAULT NULL,
+  `nama` varchar(10) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1D`
+--
+
+LOCK TABLES `tb1D` WRITE;
+/*!40000 ALTER TABLE `tb1D` DISABLE KEYS */;
+INSERT INTO `tb1D` VALUES (NULL,'A101','佐藤',40),(NULL,'A102','高橋',28),(NULL,'A103','中川',20),(NULL,'A104','渡辺',23),(NULL,'A105','西沢',35),(NULL,NULL,'\"西沢\\\"',NULL),(NULL,NULL,'\"西沢\\\"',NULL),(NULL,NULL,'\"西沢\\\"',NULL);
+/*!40000 ALTER TABLE `tb1D` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1E`
+--
+
+DROP TABLE IF EXISTS `tb1E`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1E` (
+  `bang` varchar(10) DEFAULT NULL,
+  `umare` datetime DEFAULT NULL,
+  `nama` varchar(10) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1E`
+--
+
+LOCK TABLES `tb1E` WRITE;
+/*!40000 ALTER TABLE `tb1E` DISABLE KEYS */;
+INSERT INTO `tb1E` VALUES ('A101',NULL,'佐藤',40),('A102',NULL,'高橋',28),('A103',NULL,'中川',20),('A104',NULL,'渡辺',23),('A105',NULL,'西沢',35),(NULL,NULL,'\"西沢\\\"',NULL),(NULL,NULL,'\"西沢\\\"',NULL),(NULL,NULL,'\"西沢\\\"',NULL);
+/*!40000 ALTER TABLE `tb1E` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1G`
+--
+
+DROP TABLE IF EXISTS `tb1G`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1G` (
+  `bang` varchar(10) DEFAULT NULL,
+  `nama` varchar(10) DEFAULT '氏名未入力',
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1G`
+--
+
+LOCK TABLES `tb1G` WRITE;
+/*!40000 ALTER TABLE `tb1G` DISABLE KEYS */;
+INSERT INTO `tb1G` VALUES ('A101','佐藤',40),('A102','高橋',28),('A103','中川',20),('A104','渡辺',23),('A105','西沢',35),(NULL,'\"西沢\\\"',NULL),(NULL,'\"西沢\\\"',NULL),(NULL,'\"西沢\\\"',NULL),('N999','氏名未入力',38);
+/*!40000 ALTER TABLE `tb1G` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb1h`
+--
+
+DROP TABLE IF EXISTS `tb1h`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb1h` (
+  `bang` varchar(10) NOT NULL,
+  `nama` varchar(10) DEFAULT NULL,
+  `tosi` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb1h`
+--
+
+LOCK TABLES `tb1h` WRITE;
+/*!40000 ALTER TABLE `tb1h` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tb1h` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `uniq`
+--
+
+DROP TABLE IF EXISTS `uniq`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `uniq` (
+  `a` int(11) DEFAULT NULL,
+  `b` varchar(10) DEFAULT NULL,
+  UNIQUE KEY `a` (`a`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `uniq`
+--
+
+LOCK TABLES `uniq` WRITE;
+/*!40000 ALTER TABLE `uniq` DISABLE KEYS */;
+INSERT INTO `uniq` VALUES (NULL,NULL),(1,NULL),(NULL,NULL);
+/*!40000 ALTER TABLE `uniq` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2015-11-11 20:08:36

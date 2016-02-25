@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS tb3;
+CREATE TABLE tb3 (bang varchar(10),ken varchar(10));
+insert into tb3 values('A101','“Œ‹“s');
+insert into tb3 values('A102','é‹ÊŒ§');
+insert into tb3 values('A103','_“ŞìŒ§');
+insert into tb3 values('A104','–kŠC“¹');
+insert into tb3 values('A105','Ã‰ªŒ§');

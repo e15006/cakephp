@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>備品管理データベース［{$smarty.session.myApp.name}］</title>
+</head>
+<body>
+<h1 style="color:white;background-color:#525D76;font-size:22px;">
+	備品付随情報</h1>
+{if $result == ''}
+該当する情報はありません
+{else}
+	<table border="0">
+	<tr>
+		<th align="right" bgcolor="#00ccff">備品コード</th>
+		<td bgcolor="#ffffcc">{$result.id}</td>
+	</tr><tr>
+		<th align="right" bgcolor="#00ccff">IPアドレス</th>
+		<td bgcolor="#ffffcc">{$result.ip}</td>
+	</tr><tr>
+		<th align="right" bgcolor="#00ccff">プロダクトNo.</th>
+		<td bgcolor="#ffffcc">{$result.pnum}</td>
+	</tr><tr>
+		<th align="right" bgcolor="#00ccff">搭載メモリ</th>
+		<td bgcolor="#ffffcc">{$result.memory}MB</td>
+	</tr><tr>
+		<th align="right" bgcolor="#00ccff">搭載HDD</th>
+		<td bgcolor="#ffffcc">{$result.hdd}GB</td>
+	</tr><tr>
+		<th align="right" bgcolor="#00ccff">備考</th>
+		<td bgcolor="#ffffcc">{$result.mem}</td>
+	</table>
+{/if}
+<form>
+	<input type="button" value="閉じる" onclick="self.close();" />
+</form>
+</body>
+</html>

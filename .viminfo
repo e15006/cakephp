@@ -1,0 +1,212 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+:q!
+:ZZ
+:q1Q!
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""-	CHAR	0
+	#
+
+# ファイルマーク:
+'0  2  5  ~/www/text.php
+'1  13  1  /etc/apache2/sites-available/000-default.conf
+'2  3  17  ~/table.utf8/sql.txt
+'3  1  0  /var/www/html/php/php1/chap20/data/db_info.php
+'4  6  1  /var/www/html/php/php1/chap20/data/db_info.php
+'5  1  4  /var/www/html/php/php1/chap18/setuzoku.php
+'6  1  0  /var/www/html/wp/wp-content/themes/mytheme/.git/MERGE_MSG
+'7  4  11  /var/www/html/php/php1/chap16/array.php
+'8  4  0  /var/www/html/php/php1/chap15/for.php
+'9  1  0  /var/www/html/php/php1/chap15/for.php
+
+# ジャンプリスト (新しいものが先):
+-'  2  5  ~/www/text.php
+-'  1  0  ~/www/text.php
+-'  13  1  /etc/apache2/sites-available/000-default.conf
+-'  1  0  /etc/apache2/sites-available/000-default.conf
+-'  3  17  ~/table.utf8/sql.txt
+-'  1  0  ~/table.utf8/sql.txt
+-'  1  0  /var/www/html/php/php1/chap20/data/db_info.php
+-'  6  1  /var/www/html/php/php1/chap20/data/db_info.php
+-'  1  4  /var/www/html/php/php1/chap18/setuzoku.php
+-'  1  0  /var/www/html/wp/wp-content/themes/mytheme/.git/MERGE_MSG
+-'  4  11  /var/www/html/php/php1/chap16/array.php
+-'  1  0  /var/www/html/php/php1/chap16/array.php
+-'  4  0  /var/www/html/php/php1/chap15/for.php
+-'  1  0  /var/www/html/php/php1/chap15/for.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  4  0  /var/www/html/php/php1/chap15/for.php
+-'  1  0  /var/www/html/php/php1/chap15/for.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  4  11  /var/www/html/php/php1/chap16/array.php
+-'  1  0  /var/www/html/php/php1/chap16/array.php
+-'  4  0  /var/www/html/php/php1/chap15/for.php
+-'  1  0  /var/www/html/php/php1/chap15/for.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  4  0  /var/www/html/php/php1/chap15/for.php
+-'  1  0  /var/www/html/php/php1/chap15/for.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/wp/wp-content/themes/mytheme/.git/MERGE_MSG
+-'  4  11  /var/www/html/php/php1/chap16/array.php
+-'  1  0  /var/www/html/php/php1/chap16/array.php
+-'  4  0  /var/www/html/php/php1/chap15/for.php
+-'  1  0  /var/www/html/php/php1/chap15/for.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+-'  1  0  /var/www/html/test.php
+-'  1  0  /var/www/html/test.php
+-'  3  2  /var/www/html/test3.php
+-'  1  0  /var/www/html/test3.php
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/www/text.php
+	"	2	5
+	^	2	6
+	.	2	4
+	+	2	4
+
+> /etc/apache2/sites-available/000-default.conf
+	"	13	1
+	.	12	1
+	+	12	1
+
+> ~/table.utf8/sql.txt
+	"	3	17
+	^	3	18
+	.	1	1
+	+	3	17
+	+	1	1
+
+> /var/www/html/php/php1/chap20/data/db_info.php
+	"	1	0
+	^	6	2
+	.	6	0
+	+	1	5
+	+	2	18
+	+	2	19
+	+	3	14
+	+	4	14
+	+	5	13
+	+	6	0
+
+> /var/www/html/php/php1/chap18/setuzoku.php
+	"	1	4
+	^	5	16
+	.	5	16
+	+	1	5
+	+	2	73
+	+	3	15
+	+	5	15
+	+	5	16
+
+> /var/www/html/wp/wp-content/themes/mytheme/.git/MERGE_MSG
+	"	1	0
+
+> /var/www/html/php/php1/chap16/array.php
+	"	4	11
+	^	4	12
+	.	4	11
+	+	2	19
+	+	3	15
+	+	4	5
+	+	2	1
+	+	3	1
+	+	4	11
+
+> /var/www/html/php/php1/chap15/for.php
+	"	4	0
+	^	4	1
+	.	3	10
+	+	1	5
+	+	2	25
+	+	3	10
+
+> /var/www/html/test3.php
+	"	3	2
+	^	3	3
+	.	3	2
+	+	1	5
+	+	2	23
+	+	3	2
+
+> /var/www/html/test.php
+	"	1	0

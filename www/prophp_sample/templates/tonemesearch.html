@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/toneme.css">
+<title>ToneMe トンミー</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><img src="img/head.png"></h1>
+</div>
+<div id="content">
+<div id="navdiv">
+<form class="formnav" method="post" action="login.php">
+<input type="submit" name="logout" value="ログアウト">
+</form>
+</div>
+<h2>曲の検索</h2>
+<div class="message">{message:hs}</div>
+<form method="post" action="search.php">
+<div><label>曲名</label><input type="text" name="tune_name" maxlength="20"></div>
+<div><label>アーティスト</label><select name="artist_id"></select></div>
+<div><label>気持ち</label><select name="feeling_id"></select></div>
+<div class="submit"><input type="submit" value="検索"></div>
+</form>
+<div id="navlink"><a href="add.php">曲の追加</a></div>
+<table class="tunetbl">
+<tr><th class="column-1">ID</th><th class="column-2">曲名</th><th class="column-3">アーティスト名</th
+><th class="column-4">気持ち</th><th class="column-5">コメント</th><th class="column-6">操作</th></tr>
+{foreach:records,r}
+<tr><td class="column-1">{r.tid:hs}</td><td class="column-2">{r.tname:hs}</td><td class="column-3">{r.aname:hs}</td>
+<td class="column-4">{r.fname:hs}</td><td class="column-5">{r.cmntflg:hs}</td>
+<td class="column-6">
+<a href="" id="ed%s" name="ed%s" flexy:nameuses="r.tid" flexy:dynamic="yes">編集</a>
+&nbsp;<a href="" id="dd%s" name="dd%s" flexy:nameuses="r.tid" flexy:dynamic="yes">削除</a>
+</td>
+</tr>
+{end:}
+</table>
+</div>
+<div id="footer"></div>
+</div>
+</body>
+</html>

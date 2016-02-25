@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/toneme.css">
+<title>ToneMe トンミー</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><img src="img/head.png"></h1>
+</div>
+<div id="content">
+<div id="navdiv">
+<form class="formnav" method="post" action="login.php">
+<input type="submit" value="ログイン">
+</form>
+</div>
+<h2>いまのあなたの<span class="style1">キブン</span>は？</h2>
+<div class="boxbtn">
+<form method="post" action="index.php">
+<input type="image" src="img/btn1.png" name="btn1">
+<input type="image" src="img/btn2.png" name="btn2">
+<input type="image" src="img/btn3.png" name="btn3">
+<input type="image" src="img/btn4.png" name="btn4">
+<input type="image" src="img/btn5.png" name="btn5">
+<input type="image" src="img/btn6.png" name="btn6">
+</form>
+</div>
+{if:feelingok}
+<h2>いま聞きたい<span class="style1">{feelname:hs}</span>な１曲はコレ！</h2>
+<div class="boxbtn">
+<div id="boxface">
+<img name="face" id="face" width="51" height="50" flexy:dynamic="yes">
+</div>
+<div id="boxtune">
+<p>{name:hs}</p>
+<p id="artname"><span id="artby">&nbsp;by&nbsp;</span>
+{artist:hs}</p>
+</div>
+{if:comcontok}
+<div id="fukit"></div>
+<div id="fukim">
+{foreach:comconts,line}
+{line:hs}<br>
+{end:}
+</div>
+<div id="fukib"></div>
+{end:}
+</div>
+{end:}
+</div>
+<div id="footer"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[InternetShortcut]
+URL=javascript:location.href='http://localhost/samples/chap5/bm/submit/index?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);undefined;
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,15

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/toneme.css">
+<title>ToneMe トンミー</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><img src="img/head.png"></h1>
+</div>
+<div id="content">
+<div id="navdiv">
+<form class="formnav" method="post" action="login.php">
+<input type="submit" name="logout" value="ログアウト">
+</form>
+</div>
+<h2>曲の追加</h2>
+<div class="error-message">{message:hs}</div>
+<form method="post" action="add.php">
+<div><label>曲名</label><input type="text" name="tune_name" maxlength="20"></div>
+<div><label>アーティスト</label><select name="artist_id"></select></div>
+<div><label>気持ち</label><select name="feeling_id"></select></div>
+<div><label>コメント</label><textarea name="comcont" cols="30" rows="3"></textarea></div>
+<input name="mode" type="hidden" value="conf">
+<input name="token" type="hidden">
+<input name="id" type="hidden">
+<div class="submit"><input type="submit" value="追加"></div>
+</form>
+</div>
+<div id="footer"></div>
+</div>
+</body>
+</html>

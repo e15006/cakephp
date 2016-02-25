@@ -1,0 +1,16 @@
+2008-04-17T17:36:07+09:00 ERR (3): Action "m" does not exist and was not trapped in __call()
+2008-04-17T17:37:18+09:00 ERR (3): Action "m" does not exist and was not trapped in __call()\tC:\php\includes\Zend\Controller\Action.php
+2008-04-17T17:37:33+09:00 ERR (3): Action "m" does not exist and was not trapped in __call()	C:\php\includes\Zend\Controller\Action.php
+2008-04-17T17:37:50+09:00 ERR (3): ページでエラーが発生しました。	C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\samples\chap5\application\default\controllers\IndexController.php
+2008-04-17T17:41:33+09:00 ERR (3): ページでエラーが発生しました。	C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\samples\chap5\application\default\controllers\IndexController.php
+2008-04-17T22:16:41+09:00 ERR (3): Action "index" does not exist and was not trapped in __call()	C:\php\includes\Zend\Controller\Action.php
+2008-04-17T22:22:22+09:00 ERR (3): Action "index" does not exist and was not trapped in __call()	C:\php\includes\Zend\Controller\Action.php
+2008-04-18T11:15:30+09:00 ERR (3): ページでエラーが発生しました。	C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\samples\chap5\application\default\controllers\IndexController.php
+2008-04-18T11:29:16+09:00 ERR (3): Method "redirect" does not exist and was not trapped in __call()	C:\php\includes\Zend\Controller\Action.php
+2008-04-18T11:34:32+09:00 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'updated' in order clause is ambiguous	C:\php\includes\Zend\Db\Statement\Pdo.php
+2008-04-18T11:34:55+09:00 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE uid='yyamada'' at line 1	C:\php\includes\Zend\Db\Statement\Pdo.php
+2008-05-02T00:57:56+09:00 ERR (3): A value for the identity was not provided prior to authentication with Zend_Auth_Adapter_DbTable.	C:\php\includes\Zend\Auth\Adapter\DbTable.php
+2008-05-02T00:59:08+09:00 ERR (3): A value for the identity was not provided prior to authentication with Zend_Auth_Adapter_DbTable.	C:\php\includes\Zend\Auth\Adapter\DbTable.php
+2008-05-02T01:06:35+09:00 ERR (3): A value for the identity was not provided prior to authentication with Zend_Auth_Adapter_DbTable.	C:\php\includes\Zend\Auth\Adapter\DbTable.php
+2008-05-02T01:06:38+09:00 ERR (3): A value for the identity was not provided prior to authentication with Zend_Auth_Adapter_DbTable.	C:\php\includes\Zend\Auth\Adapter\DbTable.php
+2008-05-02T15:46:07+09:00 ERR (3): ページでエラーが発生しました。	C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\samples\chap5\application\default\controllers\IndexController.php

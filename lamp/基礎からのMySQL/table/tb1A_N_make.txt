@@ -1,0 +1,55 @@
+DROP TABLE IF EXISTS tb1A;
+CREATE TABLE tb1A (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1A VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1B;
+CREATE TABLE tb1B (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1B VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1C;
+CREATE TABLE tb1C (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1C VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1D;
+CREATE TABLE tb1D (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1D VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1E;
+CREATE TABLE tb1E (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1E VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1F;
+CREATE TABLE tb1F (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1F VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1G;
+CREATE TABLE tb1G (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1G VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1H;
+CREATE TABLE tb1H (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1H VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1I;
+CREATE TABLE tb1I (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1I VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1J;
+CREATE TABLE tb1J (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1J VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1K;
+CREATE TABLE tb1K (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1K VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1L;
+CREATE TABLE tb1L (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1L VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1M;
+CREATE TABLE tb1M (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1M VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);
+
+DROP TABLE IF EXISTS tb1N;
+CREATE TABLE tb1N (bang VARCHAR(10),nama VARCHAR(10),tosi INT);
+INSERT INTO tb1N VALUES("A101","ç≤ì°",40),("A102","çÇã¥",28),("A103","íÜêÏ",20),("A104","ìnï”",23),("A105","êºëÚ",35);

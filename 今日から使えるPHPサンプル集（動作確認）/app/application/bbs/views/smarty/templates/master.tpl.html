@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>{$smarty.session.myApp.title}</title>
+<meta name="keywords" content="{$smarty.session.myApp.keywords}" />
+<meta name="description" content="{$smarty.session.myApp.description}" />
+<script type="text/javascript"
+	src="{$base}/CheckUtil.js"></script>
+</head>
+<body>
+<img src="http://www.wings.msn.to/image/wings.jpg" /><br />
+{$sitemenu|smarty:nodefaults}
+<hr />
+{include file=$current}
+<hr />
+Copyright(c) 1998-2008,Yamada Yoshihiro.  All Right Reserved. 
+</body>
+</html>

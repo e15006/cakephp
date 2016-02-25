@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>今月のスケジュール（ダウンロード）</title>
+</head>
+<body>
+<h1 style="font-size:14pt;font-weight:bold;">
+	{$smarty.post.year}年{$smarty.post.month}月のスケジュール</h1>
+<table border="1">
+{foreach from=$result|smarty:nodefaults item="info" key="key" name="loop"}
+	{if $key > 0}
+		<tr>
+			<th bgcolor="#99ccFF" valign="top">{$key}日</th>
+			<td bgcolor="#FFcc99" nowrap>
+				{foreach from=$info|smarty:nodefaults item="day"}
+					{$day.pNam}（{$day.bTim}～{$day.eTim}）<br />
+				{/foreach}
+			</td>
+		</tr>
+	{/if}
+{/foreach}
+</table>
+</body>
+</html>

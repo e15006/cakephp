@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS tb3;
+CREATE TABLE tb3 (bang varchar(10),ken varchar(10));
+insert into tb3 values('A101','東京都');
+insert into tb3 values('A102','埼玉県');
+insert into tb3 values('A103','神奈川県');
+insert into tb3 values('A104','北海道');
+insert into tb3 values('A105','静岡県');

@@ -1,0 +1,15 @@
+abc.txt
+create_tbl_mysql.sql
+data
+db1.backup
+sql.txt
+tb1A_N_make.txt
+tb1_make.txt
+tb2_make.txt
+tb3_make.txt
+tb_make.txt
+tbj_make.txt
+tbk_make.txt
+to_utf8.sh
+wp.backup
+zaiko_make.txt

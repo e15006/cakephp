@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>郵便番号検索</title>
+</head>
+<body>
+<table>
+<tr><th>郵便番号</th><th>都道府県名</th><th>市区町村名</th><th>町域名</th></tr>
+{foreach:records,r}
+<tr>
+<td>{r.zipcode:hs}</td>
+<td>{r.pref:hs}</td>
+<td>{r.city:hs}</td>
+<td>{r.town:hs}</td>
+</tr>
+{end:}
+</table>
+</body>
+</html>
